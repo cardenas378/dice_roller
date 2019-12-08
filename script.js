@@ -12,6 +12,5 @@ function generateNumber(){
 
 button.addEventListener("click", function(){
     var result = generateNumber();
-    document.getElementById('result').innerHTML = '<img src="dice' + RandomNumber1 + '.png">';
-    number.innerHTML = result;
+    document.getElementById('result').innerHTML 
 })
